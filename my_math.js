@@ -1,5 +1,7 @@
 class MyMath {
-  pi = 3.14;
+  get pi() {
+    return 3.14;
+  }
 
   add(x, y) {
     return x + y;
